@@ -1,0 +1,37 @@
+{
+    "name": "mikha-dev/laravel-model-today",
+    "description": "A package to get created/updated today to Eloquent models",
+    "keywords": [
+        "laravel",
+        "eloquent",
+        "model",
+        "date"
+    ],
+    "homepage": "https://github.com/mikha-dev/laravel-model-today",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mikhail",
+            "email": "mikha.dev@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.2 || ^8.0",
+        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
+        "illuminate/database": "^6.0 || ^7.0 || ^8.0"
+    },
+    "require-dev": {
+        "doctrine/dbal": "^2.5",
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Mikhadev\\EloquentTodayable\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
