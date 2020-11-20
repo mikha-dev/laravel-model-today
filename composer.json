@@ -22,7 +22,7 @@
         "illuminate/database": "^6.0 || ^7.0 || ^8.0"
     },
     "require-dev": {
-        "doctrine/dbal": "^2.5",
+        "doctrine/dbal": "^2.5"
     },
     "config": {
         "sort-packages": true
