@@ -2,12 +2,11 @@
 
 namespace Mikhadev\EloquentTodayable;
 
-use DateTimeInterface;
-use Illuminate\Support\Carbon;
+use Mikhadev\EloquentTodayable\TodayScope;
 
 trait Todayable
 {
-    public static function bootExpirable(): void
+    public static function bootTodayable(): void
     {
         static::addGlobalScope(new TodayScope);
     }

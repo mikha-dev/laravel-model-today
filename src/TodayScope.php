@@ -33,7 +33,7 @@ class TodayScope implements Scope
 
             return $builder->whereDate($model->getQualifiedCreatedAtColumn(), date('Y-m-d'));
         });
-    }    
+    }
 
     protected function addUpdatedToday(Builder $builder): void
     {
@@ -42,5 +42,5 @@ class TodayScope implements Scope
 
             return $builder->whereDate($model->getQualifiedUpdatedAtColumn(), date('Y-m-d'));
         });
-    }        
+    }
 }
